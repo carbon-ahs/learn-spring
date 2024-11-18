@@ -1,8 +1,6 @@
-package com.example.learn_spring;
+package com.example.learn_spring.helloworld;
 
 
-import com.example.learn_spring.game.GameRunner;
-import com.example.learn_spring.game.MarioGame;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import java.util.Arrays;

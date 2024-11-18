@@ -1,8 +1,5 @@
-package com.example.learn_spring;
+package com.example.learn_spring.game;
 
-
-import com.example.learn_spring.game.GameRunner;
-import com.example.learn_spring.game.MarioGame;
 
 public class App01GamingBasicJava {
 
