@@ -6,18 +6,18 @@ import com.example.learn_spring.game.MarioGame;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-@Configuration
-public class GamingConfiguration {
+//@Configuration
+//public class GamingConfiguration {
 
-    @Bean
-    public GamingConsole game() {
-        var game = new MarioGame();
-        return game;
-    }
+//    @Bean
+//    public GamingConsole game() {
+//        var game = new MarioGame();
+//        return game;
+//    }
 
-    @Bean
-    public GameRunner gameRunner(GamingConsole game) { // passing bean by parameter
-        var gameRunner = new GameRunner(game);
-        return gameRunner;
-    }
-}
+//    @Bean
+//    public GameRunner gameRunner(GamingConsole game) { // passing bean by parameter
+//        var gameRunner = new GameRunner(game);
+//        return gameRunner;
+//    }
+//}

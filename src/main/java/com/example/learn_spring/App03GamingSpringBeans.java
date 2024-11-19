@@ -6,13 +6,17 @@ import com.example.learn_spring.game.GamingConsole;
 import com.example.learn_spring.game.MarioGame;
 import com.example.learn_spring.helloworld.HelloWorldConfiguration;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
 
+@Configuration
+@ComponentScan("com.example.learn_spring.game")
 public class App03GamingSpringBeans {
 
     public static void main(String[] args) {
         // 1: Launch a Spring Context
         // GamingConfiguration - @Configuration
-        var context = new AnnotationConfigApplicationContext(GamingConfiguration.class);
+        var context = new AnnotationConfigApplicationContext(App03GamingSpringBeans.class);
 
         // 2: Configure the  things that we want Spring to manage
         // name1 - @Bean
